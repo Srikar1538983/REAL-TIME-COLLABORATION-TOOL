@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Collaboration Tool</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 Real-Time Collaborative Notepad</h1>
+            <div class="right">
+                <span id="userCount">Users: 0</span>
+                <button id="toggleTheme">🌙 Dark Mode</button>
+            </div>
+        </header>
+        <textarea id="editor" placeholder="Start typing..."></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
